@@ -1,6 +1,6 @@
 # LC-Python23
 
-## 
+## 39.Combination Sum
 
 June 15, 2023  4h
 
@@ -10,9 +10,12 @@ The challenges today are about using backtracking as a kind of loop solution. Fo
 ~~need to be deleted later~~
 
 
-## 39. 
+## 39.Combination Sum
 组合总和.本题是 集合里元素可以用无数次，那么和组合问题的差别 其实仅在于 startIndex上的控制
-[Reading link]
+[Reading link](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0039.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.md)\
+[video](https://www.bilibili.com/video/BV1KT4y1M7HJ/?spm_id_from=pageDriver&vd_source=63f26efad0d35bcbb0de794512ac21f3)\
+[leetcode](https://leetcode.com/problems/combination-sum/)\
+
 
 
 
