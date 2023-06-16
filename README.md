@@ -1,6 +1,6 @@
 # LC-Python23
 
-## 39.Combination Sum, 40.Combination Sum II
+## 39.Combination Sum, 40.Combination Sum II, 131.Palindrome Partitioning
 
 June 15, 2023  4h
 
@@ -80,8 +80,30 @@ class Solution:
 ```
 
 
-## 131.
-分割回文串  本题较难，大家先看视频来理解 分割问题，明天还会有一道分割问题，先打打基础。 
+## 131.Palindrome Partitioning
+[leetcode](https://leetcode.com/problems/palindrome-partitioning/)\
+This is a hard question, and there are more similar ones in the following chapters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
