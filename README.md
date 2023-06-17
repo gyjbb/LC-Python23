@@ -8,8 +8,7 @@ Congratulations!\
 This is the 23st day for leetcode python study. Today we will learn more about backtracking!\
 The challenges today are about using backtracking as a kind of loop solution. For each loop, the number of possible choices of elements /size of one set defines the width of the tree, and the number of loops we need to have/k defines the depth of the tree, we use recursion to simplify the multiple loops. Don't forget the backtracking process followed!\
 So for K elements, the tree's depth is k, because we choose one element in each layer.\
-~~need to be deleted later~~
-
+The palindrome is a hard question!
 
 ## 39.Combination Sum
 [Reading link](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0039.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.md)\
