@@ -15,7 +15,7 @@ The palindrome is a hard question!
 [video](https://www.bilibili.com/video/BV1KT4y1M7HJ/?spm_id_from=pageDriver&vd_source=63f26efad0d35bcbb0de794512ac21f3)\
 [leetcode](https://leetcode.com/problems/combination-sum/)\
 Compared to question 216, here the number can be repeated used, so the statIndex in recursion starts at i rather than i+1.\
-Here fo this question, we sorted the given list fo branch cutting.
+Here fo this question, we sorted the given list of branch cutting.
 ```python
 # ways 1: recursion + branch cutting
 class Solution:
@@ -45,7 +45,7 @@ The set given has duplicated elements, but the result can't have duplicates.\
 Here we **delete the duplicates in result while searching** rather than after searching, this can help us to save time!\
 By drawing a tree, we can remove the duplicate in the tree layer, which means emit the same elements in the for loop/width of the tree. But in the depth of tree/recursion process, the same elements can be used, for example [1,2,2] can be a solution.\
 Here the startIndex is used to emit the same elements in the tree layer/width of tree/for loop.\
-The array *used* we define is to mark the elemnts we have used before, so we won't use the same one again. It is verry import to help us defferntiate the deplicates between layers/width/don't want duplicates, and the depth/which can have duplicates.
+The array *used* We define it to mark the elements we have used before, so we won't use the same one again. It is very important to help us differentiate the duplicates between layers/width/don't want duplicates, and the depth/which can have duplicates.
 ```python
 # ways 1: recursion and backcutting + remove duplicates in layer/width by used array
 class Solution:
@@ -82,7 +82,7 @@ class Solution:
 ## 131.Palindrome Partitioning
 [leetcode](https://leetcode.com/problems/palindrome-partitioning/)\
 This is a hard question, and there are more similar ones in the following chapters.\
-Here the bounday for partition the string is actually the startIndex! \
+Here the boundary for partitioning the string is actually the startIndex! \
 The logic of deciding whether a partition is palindrome or not is in the recursion process. If the partition is not palindrome, we will not process the next recursion, and this partition will not be added to the result.
 ```python
 class Solution:
