@@ -82,8 +82,38 @@ class Solution:
 
 ## 131.Palindrome Partitioning
 [leetcode](https://leetcode.com/problems/palindrome-partitioning/)\
-This is a hard question, and there are more similar ones in the following chapters.
+This is a hard question, and there are more similar ones in the following chapters.\
+Here the bounday for partition the string is actually the startIndex! \
+The logic of deciding whether a partition is palindrome or not is in the recursion process. If the partition is not palindrome, we will not process the next recursion, and this partition will not be added to the result.
+```python
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        result = []
+        self.backtracking(s, 0, [], result)
+        return result
 
+    def backtracking(self, s, start_index, path, result):
+        #Base case/termination condition
+        if start_index == len(s):
+            result.append(path[:])
+            return
+        
+        for i in range(start_index, len(s)):
+            if self.is_palindrome(s, start_index, i):
+                path.append(s[start_index : i+1])
+                self.backtracking(s, i+1, path, result)
+                path.pop()
+
+    def is_palindrome(self, s:str, start:int, end:int)->bool:
+        i: int=start
+        j: int=end
+        while i < j:
+            if s[i] != s[j]:
+                return False
+            i += 1
+            j -= 1
+        return True
+```
 
 
 
